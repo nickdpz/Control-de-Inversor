@@ -1,0 +1,79 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=1
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=Control.hex
+Development_Mode=
+Processor_Text=PIC16F628A
+ToolSuite=CCS
+CCSVersion=5.070
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=Control.c
+
+[Control.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Control.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=Control.c
+t1=1
+2=Control.c
+t2=71
+Count=1
+
+[ProjectLog]
+Days=1
+D1=06-01-2018
+D1_L=4
+D1_L1=[36297]Project Closed.
+D1_L2=[36297]Project Opened.
+D1_L3=[36323]Project Closed.
+D1_L4=[36323]Project Opened.
+[Units]
+Count=1
+1=Control (main)
